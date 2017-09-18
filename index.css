@@ -1,0 +1,39 @@
+.box{
+	width: 900px;
+	margin: auto;
+}
+.imgBox{
+	float: left;
+	position: relative;	
+	width: 290px;
+	height: 290px;
+	border:1px solid #fff;
+	margin-right: 2px;
+	margin-top: 2px;
+}
+.imgBox:nth-child(3n){
+	margin-right: none;
+}
+.overFlow{
+	overflow: hidden;
+}
+.imgBox img{
+	position: absolute;
+	top: 0;
+	left: 0
+}
+.class-layer{
+	opacity: 0;
+	border:none;
+}
+.imgStyle{
+	width: 100%;
+	height: 98%;
+}
+.divStyle{
+	overflow: hidden;
+}
+.divStyle img{
+
+}
+
